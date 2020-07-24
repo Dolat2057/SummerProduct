@@ -1,0 +1,56 @@
+body{
+	background: #FF416C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.product-thumbnail{
+	width:100px;
+	height:100px;
+}
+
+.section-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding:20px;
+  width: inherit;
+  background: white;
+  margin:10px;
+}
+
+.section-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.sk-user-icon{
+	margin:50px;
+}
+
+.paging_full_numbers a.paginate_button {
+    color: #B03135   !important;
+}
+.paging_full_numbers a.paginate_active {
+    color: #B03135 !important;
+}
+.user_name{
+  text-decoration: none;
+  color:#B03135 ;
+}
+.register{
+  text-align: center;
+  
+}
+
+.btn-registerProduct{
+ float:left;
+
+}
+
+.table-responsive {
+  display: table;
+}
+
+#product-table {
+	height: 90vh;
+}

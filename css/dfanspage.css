@@ -1,0 +1,34 @@
+.card:hover{
+    -webkit-box-shadow: -1px 9px 50px -12px black;
+    -moz-box-shadow: -1px 9px 50px -12px black;
+    box-shadow: -1px 9px 50px -12px rgb(204, 198, 198);
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+.card{
+    margin-top: 50px;
+}
+.card-title{
+    text-align: center;
+}
+.card-body:hover{
+    
+    transition: all 1.2s ease;
+}
+a{
+    color:#000;
+}
+
+/*.btn:hover{
+   font-size: 20px;
+   text-decoration: none;
+   color: #000;
+}*/

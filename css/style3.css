@@ -1,0 +1,228 @@
+/*first menu bar styling*/
+
+
+
+
+
+#header{
+background-color:#f64b3c;
+padding:10px;
+font-size: medium;
+z-index:100;
+}
+.crompton{
+  text-align: right;
+}
+.crompton a{
+  text-decoration: none;
+  color:white;
+  text-align: auto;
+  
+}
+#navbarNav ul li a{
+  text-decoration: none;
+  color: white;
+  padding:10px;
+}
+.nav-link:hover{
+  border:2px;
+
+}
+
+
+
+/*second menu*/
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+ .header a{
+  color:#000;
+  
+  
+}
+
+.header{
+  
+  box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);
+  position:fixed;
+  width: 100%;
+  z-index:3;
+
+}
+
+.header ul{
+  margin:0;
+  padding:0px;
+  list-style:none;
+  overflow:hidden;
+  background-color:#fff;
+}
+
+
+.header ul a{
+  display:none;
+  padding:20px;
+  border-right:1px solid #aaa;
+  text-decoration:none;
+  
+}
+
+.header ul a:hover{
+ background-color:#ddd; 
+}
+
+.header  .logo{
+ float: left;
+  display:none;
+  font-size:2em;
+  padding:10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .menu{
+  clear:both;
+  max-height:0;
+  transition:max-height .2s ease-out;
+}
+
+.header .menu-icon{
+  padding: 28px 20px;
+  position:relative;
+  float:right;
+  cursor: pointer;
+  display: none;
+  
+
+}
+
+.header .menu-icon .nav-icon{
+  background:#333;
+  display:block;
+  height:2px;
+  width:18px;
+  position:relative;
+  transition:background .2s ease-out;
+  
+}
+
+.header .menu-icon .nav-icon:before{
+  background:#333;
+  content:"";
+  display:block;
+  height:100%;
+  width:100%;
+  position:absolute;
+  transition:all .2s ease-out;
+  top:5px;  
+  
+  
+
+}
+
+.header .menu-icon .nav-icon:after{
+  background:#333;
+  content:"";
+  display:block;
+  height:100%;
+  width:100%;
+  position:absolute;
+  transition:all .2s ease-out;
+  top:-5px;  
+
+}
+
+.header .menu-btn{
+  display:none;
+}
+
+.header .menu-btn:checked ~ .menu{
+  max-height:1500px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon{
+  background:transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+  transform: rotate(-45deg);
+  top:0;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+  transform: rotate(45deg);
+  top:0;
+}
+
+/*Dont touch this media query its for humberger button*/
+@media (min-width:996px){
+/*1 em is equal to 16px
+before this we use this 48 em instant of
+994px*/
+  .header li{
+      float:left;
+  }
+  .header li a{
+      padding:20px 30px;
+  }
+  .header .menu{
+      clear:none;
+      float:right;
+      max-height:none;
+  }
+  .header .menu-icon{
+      display:none;
+  }
+}
+
+/*this media query is for small screen*/
+@media only screen and (max-width:995px){
+  
+.header ul a{
+  display:block;
+  padding:20px;
+  border-right:1px solid #aaa;
+  text-decoration:none;
+
+
+}
+  .header{
+    display: block;
+    background-color:#f64b3c;
+   
+    
+  }
+  .header .logo{
+    float: left;
+     display:block;
+     font-size:2em;
+    color: #fff;
+    text-decoration: none;
+    
+   }
+   .header .menu-icon{
+    padding: 28px 20px;
+    position:relative;
+    float:right;
+    cursor: pointer;
+    display: block;
+
+    
+  
+  }
+  
+#header{
+  background-color:#f64b3c;
+  padding:10px;
+  font-size: medium;
+  z-index:100;
+  display: none;
+  }
+}
+@media only screen and (max-width:995px){
+#header{
+  display: none;
+}
+
+}

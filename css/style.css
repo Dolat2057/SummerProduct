@@ -1,0 +1,510 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body {width: auto!important; overflow-x: hidden!important} 
+
+.row{
+    margin:0px;
+}
+
+.skhead{
+    font-size: 2vw;
+}
+
+.clearfix{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.container-fluid{
+    margin:0px;
+    width:100%;
+}
+
+.section-heading{
+    text-align: center;
+    padding: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color: #888;
+    
+}
+
+a {
+    color:#b74548;  
+    text-decoration: none;
+}
+
+.btn-link{
+    color:#b74548;  
+}
+
+/* Navigation */
+
+nav.navbar{
+    background-color: #fff;
+    opacity: 0.9;
+    
+}
+
+a.nav-link:hover{
+    color:#b74548;
+}
+
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+.extra-space{
+    margin-bottom: 120px;
+}
+
+.carousel-caption{
+    right: auto;
+    left: 0;
+    padding:15px;
+    width: 20%;
+    background: rgba(0,0,0,0.5);
+    top: 25%;
+    bottom: auto;
+   
+
+}
+.sknav{
+    box-shadow: -1px 9px 50px -12px black;
+}
+
+.carouselbtn{
+    font-size: 1vw;
+}
+@media screen and (max-width: 576px) {
+  .navbar-brand-logo {
+    height: 50px;
+  }
+  .extra-space{
+    margin-bottom: 80px;
+}
+}
+
+/*************************************header***************************************/
+
+/****************************************header**********************************************************************/
+.aboutp{
+    text-align: center;
+}
+
+
+
+
+/**********************************************Footer************************************************************/
+.box
+{
+    column-gap: 10px;
+    background-color: #b74548;
+    padding: 50px;
+    padding-top:100px;
+
+}
+.box1
+{
+    column-gap: 10px;
+    background-color: #b74548;
+    padding: 50px;
+    white-space: nowrap;
+}
+.registeredOffice h5
+{
+    color: whitesmoke;
+}
+.registeredOffice a
+{
+    color: white;
+}
+.registeredOffice p
+{
+    font-size: 10px;
+    align-items: left;
+    color: white;
+}
+.customerCare h5
+{
+    color: whitesmoke;
+}
+.customerCare a
+{
+    color: white;
+}
+.customerCare p
+{
+    color:white;
+    font-size: 10px;
+}
+.partnerConnect a
+{
+    color: white;
+}
+.partnerConnect h5
+{
+    color: whitesmoke;
+}
+.partnerConnect p
+{
+    color: white;
+    font-size: 10px;
+}
+.consumer a
+{
+    color: white;
+
+}
+.consumer h5
+{
+    color: whitesmoke;
+}
+.about a
+{
+    color: white;
+
+}
+.about h5
+{
+    color: whitesmoke;
+}
+.quick a
+{
+    color: white;
+
+}
+.quick h5
+{
+    color: whitesmoke;
+}
+.sk
+{
+    color: white;
+
+}
+.crompton p
+{
+    color: whitesmoke;
+    font-size: 10px;
+}
+.instaicon
+{
+    color: white;
+    size : 10px;
+}
+.im
+{
+    size: 24px;
+}
+.lastline 
+{
+    text-align: center;
+    color: white;
+}
+hr{
+    border: 1px whitesmoke;
+}
+
+
+
+
+/********************************************************Footer***************************************************/
+
+/* carousel */
+@media screen and (max-width: 768px) 
+{
+ .skcarousel{
+    /* height: 90vw;
+    width: 120vw; */
+    background: cover;
+ }
+ 
+}
+/* carousel */
+
+/*****************************************************discover-range*************************************************/
+.card-row2 
+{
+    box-shadow: 0 4px 8px 0 rgba(99, 98, 98, 0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+
+}
+  
+.inner
+{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+
+.card-row2:hover 
+{
+   box-shadow: -1px 9px 50px -12px rgb(46, 44, 44);
+  
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+
+.link{
+    text-decoration: none;
+    color:darkgrey;
+}
+  
+
+.card-row2{
+    min-width: 150px;
+    min-height: 200px;
+    height: 380px;
+
+}
+
+img.card-img-top1 {
+
+   height: 150px;
+  
+}
+.card-row2{
+    min-width: 150px;
+    min-height: 200px;
+
+}
+
+
+.card-text-heading{
+    font-weight: bold;
+    text-decoration: none;
+}
+/*****************************************************************discover-range*******************************************/
+
+  
+    
+
+/******************************************************consumer  page************************************************/
+
+.consumerCard{
+    margin-top:20px;
+    margin-bottom:30px; 
+    
+    
+}
+.card1{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+
+.card1 
+{  
+ transition: 0.3s;
+}
+  
+
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+}
+/********************************************************consumer   page **************************************************/
+
+
+
+/********************************************************did-you-know********************************************************/
+
+.boxdyk{
+    margin-bottom: 10px;
+}
+.row3{
+    margin-bottom: 20px;
+}
+img.card-img-top2 {
+
+   height: 150px;
+
+  
+}
+    
+/********************************************************did-you-know********************************************************/
+
+
+.modelno{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/********************************************************product details***************************************************/
+.details{
+padding: 20px;
+margin-top: 20px;
+
+}
+
+
+hr{
+    height:1px;
+    background-color: tomato;
+}
+
+
+.buyrow{
+    padding:60px;
+    background-color: white;
+}
+
+.table1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom:50px;
+    
+}
+.specs{
+    padding:20px;
+    
+    margin-left: 600px;
+}
+.product_check{
+    margin-top: 0.5px;
+    line-height: 2px;
+}
+@media screen and (max-width: 768px) {
+ .productlink{
+     display:none;
+ }
+}
+/********************************************************product details***************************************************/
+
+/* products */
+@media screen and (max-width: 576px) {
+  .productlinks{
+      display: none;
+  }
+}
+/* products */
+ 
+/******************************************************trending**********************************************************/
+.trendingcol{
+    margin-top: 5px;
+}
+  
+/******************************************************trending**********************************************************/
+
+
+ 
+
+/*********************************************************search************************************************************/
+
+.search{
+    padding: 10px;
+}
+
+
+
+
+  
+/*********************************************************search************************************************************/
+
+
+
+
+  
+/*************************************************** dealer portal home page**************************************************/
+
+.loginrow{
+    background-image: url("/images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg");
+}
+.quantity{
+    width:50%;
+}
+.dhbutton{
+    margin-left: 40%;
+}
+/*************************************************** dealer portal page***************************************************/
+
+
+/******************************************************customer portal***************************************************/
+.cimage{
+    width:100%;
+    height: 500px;
+}
+/*********************************************************customer portal**********************************************/
+
+
+
+.tableimg{
+    width:60px;
+    height: 60px;
+}
+
+.product-table{
+    table-layout: fixed;
+    width: 100%;
+    height:100%;
+}
+
+/**********************************************************articles page****************************************************/
+
+.articleshead{
+    margin-top: 50px;
+}
+
+.articleshead1{
+    margin-top: 100px;
+}
+
+
+/**********************************************************articles page****************************************************/
+
+/* categories page*/
+.categoriesimg{
+    height: 70%;
+
+}
+.dykhead{
+    color: black;
+}
+/* categories page*/
+
+.explorebtn{
+ color: antiquewhite;   
+}
+.explorebtn:hover{
+    color: antiquewhite;
+}
+
+/*article page*/
+.articleform{
+    margin:50px;
+}
+.articlefields{
+    margin: 20px;
+    width: 70%;
+}
+.articlebtn{
+    margin-left:20px;
+}
+.articlehead{
+    margin:20px;
+}
+/*article page*/
+
